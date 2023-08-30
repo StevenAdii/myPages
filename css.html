@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Latihan CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#"><img src="ukmc.png" alt="UKMC" style="width: 50px;"></a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">RevoU</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Steven Adi Putra</div>
+          <div class="text-three">Information System</div>
+          <div class="text-four">Universitas Katolik Musi Charitas</div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="data:image/jpeg;base64,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" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Ini Kucing Kaget </div>
+            <p>Hello I'm Steven Adi Putra, There's Nothing To Say, Stay Happy :)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>RevoU X Kampus Merdeka Batch 5 </span></div>
+        <div class="text">
+          <div class="topic">Data & Software Engineering</div>
+          <p style="line-height: 35px;">
+            Program RevoU Tech Academy (Data and Software Engineering) memiliki dua modul kunci yang harus dipelajari oleh setiap mahasiswa, yaitu Software Engineering dan Data Analytics. Agar para peserta mampu memahami keempat posisi
+            kunci ini, secara umum program ini akan dibagi menjadi 4 bagian, yaitu: 
+            <ol style="margin-left: 45px; text-align: justify;line-height: 35px; font-weight: bold;">
+              <li>Orientation Week (Communication skills, Career in digital economy, Continuous learning, and more)</li>
+              <li>Software Engineering (Front end, HTML, CSS,
+                Javascript and more)</li>
+              <li>Data Analytics (Data analysis method, Data Visualization, and more)</li>
+              <li>Career development (CV & LinkedIn Creation, Interview hacks, and more)</li>
+            </ol>
+         
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="text">
+        <span> <a href="https://www.linkedin.com/in/steven-adi-b7b623185/">Steven Adi</a> | &#169; 2023</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
